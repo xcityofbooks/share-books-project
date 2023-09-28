@@ -1,0 +1,47 @@
+.selected-books-container {
+  background-color: #fff;
+  margin-top: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  height: 630px;
+  display: flex;
+}
+
+.selected-books-text-container {
+  margin: 8px;
+}
+
+.selected-books-btn {
+  width: 100px;
+  height: 40px;
+  background-color: #6379c9;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px 0px 10px 0px;
+}
+
+.selected-books-btn:hover {
+  background-color: #3c9e9e;
+  color: #fff;
+}
+
+.selected-books-img-size {
+  width: 400px;
+  height: 630px;
+}
+
+.selected-books-author-genre {
+  background-color: #6379c9;
+  color: #fff;
+  width: 110px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.selected-books-info {
+  font-size: 18px;
+}

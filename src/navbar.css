@@ -1,0 +1,51 @@
+.navbar-styles {
+  width: 100vw;
+  height: 60px;
+  background-color: #6379c9;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.shared-class {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-btn h4 {
+  margin-right: 14px;
+}
+
+.nav-btn h4:hover {
+  color: #3c9e9e;
+}
+
+.only-btns {
+  margin-right: 30px;
+}
+
+.btn {
+  background: #3c9e9e;
+  border: 1px solid #3c9e9e;
+  margin: 4px;
+  width: 80px;
+  border-radius: 40px;
+  color: #fff;
+  padding: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #6379c9;
+  border: 1px solid #fff;
+}
+
+.nav-btn {
+  margin-left: 400px;
+}

@@ -1,0 +1,7 @@
+.new-section-title {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

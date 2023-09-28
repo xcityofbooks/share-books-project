@@ -1,0 +1,54 @@
+.first-page {
+  background-color: #324175;
+  height: 70vh;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-image: url("./images/2125.jpg");
+}
+
+.greetings-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+  color: #ffff;
+}
+
+.greetings-text h1 {
+  font-size: 100px;
+}
+
+.greetings-text p {
+  font-size: 20px;
+}
+
+.description {
+  margin-top: 10px;
+  width: 770px;
+}
+
+.section-container {
+  margin-top: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-sec {
+  margin: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1600px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-size: 0.6rem;
+  }
+}
